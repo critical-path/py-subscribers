@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/critical-path/py-subscribers.svg?branch=master)](https://travis-ci.com/critical-path/py-subscribers)
+
 ## py-subscribers v1.0.0
 
 py-subscribers is a util that retrieves a list of subscribers (watchers) for a given GitHub user and repo.
@@ -5,7 +7,7 @@ py-subscribers is a util that retrieves a list of subscribers (watchers) for a g
 
 ## Dependencies
 
-py-subscribers requires Python 3.x as well as the pip, click, requests, pylint, pytest-cov, and responses packages.
+py-subscribers requires Python as well as the pip, click, requests, pylint, pytest-cov, and responses packages.
 
 
 ## Installing py-subscribers with test cases and testing dependencies
