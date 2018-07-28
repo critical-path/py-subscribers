@@ -1,9 +1,14 @@
+"""The library of functions used by py-subscribers."""
+
+
 from requests import get
 
 
 def get_repos(api, user):
     """Get list of all repos for a given user.
 
+    Parameters
+    ----------
     api : str
         The API's fully-qualified domain name.
 
@@ -11,6 +16,11 @@ def get_repos(api, user):
         The user of interest.
 
     The parameters help to form the API endpoint.
+
+    Returns
+    -------
+    repos : list
+        The repos for the user of interest.
     """
 
     repos = []
@@ -41,6 +51,11 @@ def get_subscribers_for_one_repo(api, user, repo):
         The repo of interest.
 
     The parameters help to form the API endpoint.
+
+    Returns
+    -------
+    subscribers : dict
+        The subscribers for the repo of interest.
     """
 
     subscribers = {}
@@ -68,6 +83,11 @@ def get_subscribers_for_all_repos(api, user, repos):
         The repos of interest.
 
     The parameters help to form the API endpoint.
+
+    Returns
+    -------
+    subscribers : dict
+        The subscribers for the repos of interest.
     """
 
     subscribers = {}
@@ -96,6 +116,10 @@ def write_results(user=None, repo=None, subscribers=None):
       The subscribers associated with the user and repo.
 
     The parameters help to form the filename.
+
+    Returns
+    -------
+    N/A
     """
 
     if user and repo:
