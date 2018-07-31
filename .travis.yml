@@ -24,4 +24,4 @@ install:
 script:
   - pylint subscribers
   - cd ./tests
-  - py.test -vv --cov=subscribers --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov=subscribers --cov-branch --cov-report=term-missing --cov-config=.coveragerc
