@@ -124,7 +124,7 @@ def write_results(user=None, repo=None, subscribers=None):
 
     if (user is not None) and (repo is not None):
         filename = "subscribers-{0}-{1}.json".format(user, repo)
-        
+
     if (user is not None) and (repo is None):
         filename = "subscribers-{0}.json".format(user)
 
