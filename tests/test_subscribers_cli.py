@@ -7,7 +7,7 @@ from os import (
 
 from click.testing import CliRunner
 
-from subscribers.subscribers_cli import get_subscribers
+from subscribers.cli import get_subscribers
 
 from responses import (
     activate,

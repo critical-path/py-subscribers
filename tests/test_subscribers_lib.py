@@ -5,7 +5,7 @@ from os import (
     stat
 )
 
-from subscribers.subscribers_lib import (
+from subscribers.lib import (
     get_repos,
     get_subscribers_for_all_repos,
     get_subscribers_for_one_repo,

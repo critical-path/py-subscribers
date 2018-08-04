@@ -36,7 +36,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "subscribers=subscribers.subscribers_cli:get_subscribers"
+            "subscribers=subscribers.cli:get_subscribers"
         ]
     }
 )

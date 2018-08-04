@@ -9,7 +9,7 @@ from click import (
     option
 )
 
-from subscribers.subscribers_lib import (
+from subscribers.lib import (
     get_repos,
     get_subscribers_for_one_repo,
     get_subscribers_for_all_repos,
