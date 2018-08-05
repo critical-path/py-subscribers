@@ -20,9 +20,8 @@ python:
 # job phases
 
 install:
-  - pip install --editable .[test] .
+  - pip install --editable .[test]
 
 script:
   - pylint subscribers
-  - cd ./tests
-  - py.test -vv --cov=subscribers --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov --cov-report=term-missing
