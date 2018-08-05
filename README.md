@@ -7,7 +7,7 @@ py-subscribers is a util that retrieves a list of subscribers (watchers) for a g
 
 ## Dependencies
 
-py-subscribers requires Python as well as the pip, click, requests, pylint, pytest, pytest-cov, and responses packages.
+py-subscribers requires Python as well as the pip, click, requests, coveralls, pylint, pytest, pytest-cov, and responses packages.
 
 
 ## Installing py-subscribers with test cases and testing dependencies
@@ -17,7 +17,7 @@ py-subscribers requires Python as well as the pip, click, requests, pylint, pyte
 2. Using sudo, run pip with the install command and the --editable option.
 
 ```
-sudo pip install --editable .[test] .
+sudo pip install --editable .[test]
 ```
 
 
@@ -83,17 +83,10 @@ subscribers -u <user> -r <repo> -w
 ```
 pylint subscribers
 ```
-
-2. Change to the tests directory.
-
-```
-cd ./tests
-```
-
-3. Run pytest with the -vv, --cov, --cov-branch, --cov-report, and --cov-config options.
+2. Run pytest with the -vv, --cov, and --cov-report options.
 
 ```
-pytest -vv --cov=subscribers --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+pytest -vv --cov --cov-report=term-missing
 ```
 
 
