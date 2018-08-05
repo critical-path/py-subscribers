@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/critical-path/py-subscribers.svg?branch=master)](https://travis-ci.com/critical-path/py-subscribers)
+[![Build Status](https://travis-ci.com/critical-path/py-subscribers.svg?branch=master)](https://travis-ci.com/critical-path/py-subscribers) [![Coverage Status](https://coveralls.io/repos/github/critical-path/py-subscribers/badge.svg)](https://coveralls.io/github/critical-path/py-subscribers)
 
 ## py-subscribers v1.0.0
 
