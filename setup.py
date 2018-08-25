@@ -32,6 +32,7 @@ setup(
             "pylint",
             "pytest",
             "pytest-cov",
+            "radon",
             "responses"
         ]
     },
