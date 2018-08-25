@@ -23,6 +23,7 @@ install:
   - pip install --editable .[test]
 
 script:
+  - radon mi --show subscribers
   - pylint subscribers
   - py.test -vv --cov --cov-report=term-missing
 
